@@ -1,5 +1,5 @@
 package Kunal_Playlist.Phase2_Arrays_Sorting;
-// Topic: 
+// Topic: Arrays and ArrayList
 // Date: 05-06 Mar 2026
 
 import java.util.Scanner;
