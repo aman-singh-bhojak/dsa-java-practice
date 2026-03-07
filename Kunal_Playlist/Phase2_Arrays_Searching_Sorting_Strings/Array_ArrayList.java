@@ -1,4 +1,4 @@
-package Kunal_Playlist.Phase2_Arrays_Sorting;
+package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings;
 // Topic: Arrays and ArrayList
 // Date: 05-06 Mar 2026
 
