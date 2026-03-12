@@ -2,7 +2,7 @@ package Leetcode.Array_;
 
 import java.util.Arrays;
 
-public class ArrayPermutation {
+public class _1920_BuildArrayFromPermutation {
     public static int[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
         for(int i = 0; i < nums.length; i++) {

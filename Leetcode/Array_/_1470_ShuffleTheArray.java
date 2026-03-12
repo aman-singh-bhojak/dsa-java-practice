@@ -2,7 +2,7 @@ package Leetcode.Array_;
 
 import java.util.Arrays;
 
-public class ShuffleTheArray {
+public class _1470_ShuffleTheArray {
     public static int[] shuffle(int[] nums, int n) {
         int[] ans = new int[2*n];
         for(int i = 0; i < n; i++) {

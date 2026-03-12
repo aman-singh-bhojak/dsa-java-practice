@@ -2,7 +2,7 @@ package Leetcode.Array_;
 
 import java.util.Arrays;
 
-public class RunningSumOf1DArray {
+public class _1480_RunningSumOf1DArray {
     public static int[] runningSum(int[] nums) {
         int[] runningsum = new int[nums.length];
         runningsum[0] = nums[0];

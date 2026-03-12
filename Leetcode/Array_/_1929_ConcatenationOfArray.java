@@ -2,7 +2,7 @@ package Leetcode.Array_;
 
 import java.util.Arrays;
 
-public class ConcatenationOfArray {
+public class _1929_ConcatenationOfArray {
     public static int[] getConcatenation(int[] nums) {
         int n = nums.length;
         int[] ans = new int[2*n];
