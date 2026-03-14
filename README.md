@@ -7,7 +7,7 @@ Practicing Data Structures and Algorithms in Java, following
 
 ### Why I made this
 
-I'm a 3rd year CS student building strong DSA and Java fundamentals from scratch.
+I'm a 2nd year CS student building strong DSA and Java fundamentals from scratch.
 Goal is to be internship-ready targeting backend and full-stack roles.
 Every file here is coded from after watching the video, including assignments.
 
