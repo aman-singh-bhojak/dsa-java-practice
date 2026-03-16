@@ -1,0 +1,26 @@
+package Leetcode.Binary_Search_;
+
+public class _0744_FindSmallestLetterGreaterThanTarget {
+    public static char nextGreatestLetter(char[] letters, char target) {
+        int st = 0;
+        int end = letters.length - 1;
+        while(st <= end) {
+            int mid = st + (end - st) / 2;
+            if(letters[mid] <= target) {
+                st = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+        return letters[st % letters.length];
+    }
+
+    public static void main(String[] args) {
+        char[] arr = {'a', 'b', 'c', 'd', 'f', 'h', 'k', 'm'};
+        char find = 'g';
+
+        char result = nextGreatestLetter(arr, find);
+
+        System.out.println(result);
+    }
+}
