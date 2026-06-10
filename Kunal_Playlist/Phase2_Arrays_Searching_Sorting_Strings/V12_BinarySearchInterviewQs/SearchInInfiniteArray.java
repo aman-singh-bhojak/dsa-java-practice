@@ -2,37 +2,40 @@ package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings.V12_BinarySearchI
 
 public class SearchInInfiniteArray {
 
-    // Simulates the infinite array
-    static int get(int[] arr, int index) {
-        if(index >= arr.length) {
-            return Integer.MAX_VALUE; // out of bounds = infinity
-        }
-        return arr[index];
-    }
-
-    static int searchInfinite(int[] nums, int target) {
+    static int InfArr(int[] arr, int target) {
         int st = 0;
         int end = 1;
+        
+        while (target > arr[end]) {
+            int temp = end + 1;
+            end = end + (end - st + 1) * 2;
+            st = temp;
+        }
 
-        while(st <= end) {
+        return BinarySearch(arr, target, st, end);
+    }
+
+    static int BinarySearch(int[] arr, int target, int st, int end) {
+
+        while (st <= end) {
             int mid = st + (end - st) / 2;
-            if(target < nums[mid]) {
+
+            if(target < arr[mid]) {
                 end = mid - 1;
-            } else if(target > nums[mid]) { 
+            } else if(target > arr[mid]) {
                 st = mid + 1;
             } else {
                 return mid;
             }
         }
-        return st;
+        return -1;
     }
-
    
     public static void main(String[] args) {
-        int[] arr = {1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25};
-        int target = 17;
+        int[] arr = {3, 5, 7, 9, 10, 90, 100, 130, 140, 160, 170};
+        int target = 10;
 
-        int result = searchInfinite(arr, target);
+        int result = InfArr(arr, target);
         System.out.println("Found at index: " + result);
     }
 }
