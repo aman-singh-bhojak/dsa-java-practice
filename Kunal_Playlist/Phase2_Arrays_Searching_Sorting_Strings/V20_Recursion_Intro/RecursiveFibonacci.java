@@ -1,0 +1,16 @@
+package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings.V20_Recursion_Intro;
+
+public class RecursiveFibonacci {
+    public static void main(String[] args) {
+        int ans = fibon(5);
+        System.out.println(ans);
+    }
+
+    static int fibon(int n) {
+        if(n < 2) {
+            return n;
+        }
+
+        return fibon(n - 1) + fibon(n - 2);
+    }
+}
