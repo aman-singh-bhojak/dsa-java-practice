@@ -1,4 +1,4 @@
-package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings.V22_BitwiseOperators;
+package Kunal_Playlist.Phase3_Recursion_Complexity_Backtracking.V22_BitwiseOperators;
 
 public class RangeXOR {
     public static void main(String[] args) {
