@@ -2,7 +2,7 @@ package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings;
 
 import java.util.Arrays;
 
-public class SelectionSort {
+public class V15_SelectionSort {
 
     static void Selection(int[] arr) {
         

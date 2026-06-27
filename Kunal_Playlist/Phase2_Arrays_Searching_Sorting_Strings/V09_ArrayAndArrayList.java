@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Array_ArrayList {
+public class V09_ArrayAndArrayList {
 
     // Lecture Methods:
 

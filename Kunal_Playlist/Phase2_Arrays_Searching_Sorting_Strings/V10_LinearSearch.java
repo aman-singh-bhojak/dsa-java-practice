@@ -6,7 +6,7 @@ package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class LinearSearch {
+public class V10_LinearSearch {
     // ── Lecture Method Code ──────────────────────────────────
 
     // 1. Target and search:

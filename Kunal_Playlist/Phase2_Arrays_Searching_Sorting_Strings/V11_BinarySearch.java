@@ -4,7 +4,7 @@
 package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings;
 
 import java.util.Scanner;
-public class BinarySearch {
+public class V11_BinarySearch {
 
     // ── Lecture Method Code ──────────────────────────────────
 

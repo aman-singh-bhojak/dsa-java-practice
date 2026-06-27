@@ -2,7 +2,7 @@ package Kunal_Playlist.Phase2_Arrays_Searching_Sorting_Strings;
 
 import java.util.Arrays;
 
-public class BubbleSort {
+public class V14_BubbleSort {
     static void bubble(int[] arr) {
 
         boolean swapped;
