@@ -1,27 +1,46 @@
 # dsa-java-practice
 
-Practicing Data Structures and Algorithms in Java, following
-[Kunal Kushwaha's DSA playlist](https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=aHp0zQHPnIzZxQ5G).
+Practicing Data Structures and Algorithms in Java, following Kunal Kushwaha's DSA playlist.
 
----
+## Why I made this
 
-### Why I made this
+I'm a 3rd-year Computer Science student building strong Java and DSA fundamentals as part of my preparation for software engineering internships.
 
-I'm a 2nd year CS student building strong DSA and Java fundamentals from scratch.
-Goal is to be internship-ready targeting backend and full-stack roles.
-Every file here is coded from after watching the video, including assignments.
+The repository contains my implementations from the DSA playlist along with solutions to LeetCode problems.
 
----
+## What's here
 
-### What's here
+- **Kunal_Playlist** — Java implementations organized by topic and playlist section
+- **Leetcode** — LeetCode solutions organized by topic
 
-- `KunalPlaylist` — code from each video, organised by phase
-- `LeetCode` — solutions organised by topic
+## Topics covered so far
 
-### Stack
+- Java Fundamentals
+- Arrays & ArrayLists
+- Searching & Sorting
+- Binary Search
+- Strings
+- Recursion
+- Bit Manipulation
+- Mathematics for DSA
+- Merge Sort & Quick Sort
+- Subsets & Permutations
+- Backtracking
 
-Java 17 · VS Code · Git
+## Current progress
 
----
+Currently working through the **Backtracking** section and continuing toward:
 
-*Started Feb 2026 — active daily practice*
+- Linked Lists
+- Stacks & Queues
+- Trees
+- Heaps
+- HashMaps
+- Graphs
+- Dynamic Programming
+
+## Tech
+
+- Java
+- Git
+- GitHub
